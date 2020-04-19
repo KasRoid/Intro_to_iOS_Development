@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UserInterface_Exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="255" image="Girl" translatesAutoresizingMaskIntoConstraints="NO" id="H7o-nv-gg0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="504"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chat" translatesAutoresizingMaskIntoConstraints="NO" id="C8g-aU-ECQ">
+                                <rect key="frame" x="262" y="391" width="93" height="93"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joanna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hil-NR-d0N">
+                                <rect key="frame" x="20" y="10" width="281" height="33"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="&quot;I'd like to meet you!&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExU-Sg-BZ4">
+                                <rect key="frame" x="20" y="524" width="335" height="31.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you have any question, please feel free to contact me." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49V-v6-56y">
+                                <rect key="frame" x="20" y="555.5" width="335" height="91.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="254" verticalHuggingPriority="251" image="Close" translatesAutoresizingMaskIntoConstraints="NO" id="ZYz-zj-BKi">
+                                <rect key="frame" x="321" y="10" width="34" height="34"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZYz-zj-BKi" secondAttribute="trailing" constant="20" id="0nw-wr-k4i"/>
+                            <constraint firstItem="49V-v6-56y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3Ea-Yz-h3g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="49V-v6-56y" secondAttribute="trailing" constant="20" id="6ix-Zf-CuN"/>
+                            <constraint firstItem="ExU-Sg-BZ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bu4-Es-lkN"/>
+                            <constraint firstItem="49V-v6-56y" firstAttribute="top" secondItem="ExU-Sg-BZ4" secondAttribute="bottom" id="CcO-iQ-eHK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ExU-Sg-BZ4" secondAttribute="trailing" constant="20" id="DQH-RR-wo5"/>
+                            <constraint firstItem="hil-NR-d0N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Djo-4j-cFn"/>
+                            <constraint firstItem="ZYz-zj-BKi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="HcY-wV-k47"/>
+                            <constraint firstItem="ZYz-zj-BKi" firstAttribute="leading" secondItem="hil-NR-d0N" secondAttribute="trailing" constant="20" id="LCB-6N-bF8"/>
+                            <constraint firstItem="ExU-Sg-BZ4" firstAttribute="top" secondItem="H7o-nv-gg0" secondAttribute="bottom" constant="20" id="QLo-pe-Wk2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C8g-aU-ECQ" secondAttribute="trailing" constant="20" id="RXg-tv-QM9"/>
+                            <constraint firstItem="hil-NR-d0N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="g6A-wK-C1I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="49V-v6-56y" secondAttribute="bottom" constant="20" id="gWj-hQ-IJT"/>
+                            <constraint firstItem="C8g-aU-ECQ" firstAttribute="bottom" secondItem="H7o-nv-gg0" secondAttribute="bottom" constant="-20" id="kWo-XQ-2Ex"/>
+                            <constraint firstItem="H7o-nv-gg0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="knT-rX-wMI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H7o-nv-gg0" secondAttribute="trailing" id="lCa-v7-1nb"/>
+                            <constraint firstItem="H7o-nv-gg0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zAP-F9-LV9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Chat" width="93" height="93"/>
+        <image name="Close" width="34" height="34"/>
+        <image name="Girl" width="414" height="504"/>
+    </resources>
+</document>

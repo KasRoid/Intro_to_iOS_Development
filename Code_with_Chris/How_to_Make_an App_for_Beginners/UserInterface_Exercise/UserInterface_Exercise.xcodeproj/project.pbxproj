@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42EE2822244C1EDE0023FAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE2821244C1EDE0023FAD8 /* AppDelegate.swift */; };
-		42EE2824244C1EDE0023FAD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE2823244C1EDE0023FAD8 /* SceneDelegate.swift */; };
-		42EE2826244C1EDE0023FAD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE2825244C1EDE0023FAD8 /* ViewController.swift */; };
-		42EE2829244C1EDE0023FAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE2827244C1EDE0023FAD8 /* Main.storyboard */; };
-		42EE282B244C1EE30023FAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EE282A244C1EE30023FAD8 /* Assets.xcassets */; };
-		42EE282E244C1EE30023FAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE282C244C1EE30023FAD8 /* LaunchScreen.storyboard */; };
+		42EE2842244C93C90023FAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE2841244C93C90023FAD8 /* AppDelegate.swift */; };
+		42EE2844244C93C90023FAD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE2843244C93C90023FAD8 /* SceneDelegate.swift */; };
+		42EE2846244C93C90023FAD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE2845244C93C90023FAD8 /* ViewController.swift */; };
+		42EE2849244C93C90023FAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE2847244C93C90023FAD8 /* Main.storyboard */; };
+		42EE284B244C93CC0023FAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EE284A244C93CC0023FAD8 /* Assets.xcassets */; };
+		42EE284E244C93CC0023FAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE284C244C93CC0023FAD8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42EE281E244C1EDE0023FAD8 /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42EE2821244C1EDE0023FAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42EE2823244C1EDE0023FAD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42EE2825244C1EDE0023FAD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		42EE2828244C1EDE0023FAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42EE282A244C1EE30023FAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42EE282D244C1EE30023FAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		42EE282F244C1EE30023FAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EE283E244C93C90023FAD8 /* UserInterface_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserInterface_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EE2841244C93C90023FAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EE2843244C93C90023FAD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42EE2845244C93C90023FAD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EE2848244C93C90023FAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EE284A244C93CC0023FAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EE284D244C93CC0023FAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EE284F244C93CC0023FAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42EE281B244C1EDD0023FAD8 /* Frameworks */ = {
+		42EE283B244C93C90023FAD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42EE2815244C1EDD0023FAD8 = {
+		42EE2835244C93C90023FAD8 = {
 			isa = PBXGroup;
 			children = (
-				42EE2820244C1EDE0023FAD8 /* WarCardGame */,
-				42EE281F244C1EDE0023FAD8 /* Products */,
+				42EE2840244C93C90023FAD8 /* UserInterface_Exercise */,
+				42EE283F244C93C90023FAD8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		42EE281F244C1EDE0023FAD8 /* Products */ = {
+		42EE283F244C93C90023FAD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42EE281E244C1EDE0023FAD8 /* WarCardGame.app */,
+				42EE283E244C93C90023FAD8 /* UserInterface_Exercise.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42EE2820244C1EDE0023FAD8 /* WarCardGame */ = {
+		42EE2840244C93C90023FAD8 /* UserInterface_Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				42EE2821244C1EDE0023FAD8 /* AppDelegate.swift */,
-				42EE2823244C1EDE0023FAD8 /* SceneDelegate.swift */,
-				42EE2825244C1EDE0023FAD8 /* ViewController.swift */,
-				42EE2827244C1EDE0023FAD8 /* Main.storyboard */,
-				42EE282A244C1EE30023FAD8 /* Assets.xcassets */,
-				42EE282C244C1EE30023FAD8 /* LaunchScreen.storyboard */,
-				42EE282F244C1EE30023FAD8 /* Info.plist */,
+				42EE2841244C93C90023FAD8 /* AppDelegate.swift */,
+				42EE2843244C93C90023FAD8 /* SceneDelegate.swift */,
+				42EE2845244C93C90023FAD8 /* ViewController.swift */,
+				42EE2847244C93C90023FAD8 /* Main.storyboard */,
+				42EE284A244C93CC0023FAD8 /* Assets.xcassets */,
+				42EE284C244C93CC0023FAD8 /* LaunchScreen.storyboard */,
+				42EE284F244C93CC0023FAD8 /* Info.plist */,
 			);
-			path = WarCardGame;
+			path = UserInterface_Exercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42EE281D244C1EDD0023FAD8 /* WarCardGame */ = {
+		42EE283D244C93C90023FAD8 /* UserInterface_Exercise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42EE2832244C1EE30023FAD8 /* Build configuration list for PBXNativeTarget "WarCardGame" */;
+			buildConfigurationList = 42EE2852244C93CC0023FAD8 /* Build configuration list for PBXNativeTarget "UserInterface_Exercise" */;
 			buildPhases = (
-				42EE281A244C1EDD0023FAD8 /* Sources */,
-				42EE281B244C1EDD0023FAD8 /* Frameworks */,
-				42EE281C244C1EDD0023FAD8 /* Resources */,
+				42EE283A244C93C90023FAD8 /* Sources */,
+				42EE283B244C93C90023FAD8 /* Frameworks */,
+				42EE283C244C93C90023FAD8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WarCardGame;
-			productName = WarCardGame;
-			productReference = 42EE281E244C1EDE0023FAD8 /* WarCardGame.app */;
+			name = UserInterface_Exercise;
+			productName = "CardWarGame Exercise";
+			productReference = 42EE283E244C93C90023FAD8 /* UserInterface_Exercise.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42EE2816244C1EDD0023FAD8 /* Project object */ = {
+		42EE2836244C93C90023FAD8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Kas Song";
 				TargetAttributes = {
-					42EE281D244C1EDD0023FAD8 = {
+					42EE283D244C93C90023FAD8 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 42EE2819244C1EDD0023FAD8 /* Build configuration list for PBXProject "WarCardGame" */;
+			buildConfigurationList = 42EE2839244C93C90023FAD8 /* Build configuration list for PBXProject "UserInterface_Exercise" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 42EE2815244C1EDD0023FAD8;
-			productRefGroup = 42EE281F244C1EDE0023FAD8 /* Products */;
+			mainGroup = 42EE2835244C93C90023FAD8;
+			productRefGroup = 42EE283F244C93C90023FAD8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42EE281D244C1EDD0023FAD8 /* WarCardGame */,
+				42EE283D244C93C90023FAD8 /* UserInterface_Exercise */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		42EE281C244C1EDD0023FAD8 /* Resources */ = {
+		42EE283C244C93C90023FAD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42EE282E244C1EE30023FAD8 /* LaunchScreen.storyboard in Resources */,
-				42EE282B244C1EE30023FAD8 /* Assets.xcassets in Resources */,
-				42EE2829244C1EDE0023FAD8 /* Main.storyboard in Resources */,
+				42EE284E244C93CC0023FAD8 /* LaunchScreen.storyboard in Resources */,
+				42EE284B244C93CC0023FAD8 /* Assets.xcassets in Resources */,
+				42EE2849244C93C90023FAD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42EE281A244C1EDD0023FAD8 /* Sources */ = {
+		42EE283A244C93C90023FAD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42EE2826244C1EDE0023FAD8 /* ViewController.swift in Sources */,
-				42EE2822244C1EDE0023FAD8 /* AppDelegate.swift in Sources */,
-				42EE2824244C1EDE0023FAD8 /* SceneDelegate.swift in Sources */,
+				42EE2846244C93C90023FAD8 /* ViewController.swift in Sources */,
+				42EE2842244C93C90023FAD8 /* AppDelegate.swift in Sources */,
+				42EE2844244C93C90023FAD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		42EE2827244C1EDE0023FAD8 /* Main.storyboard */ = {
+		42EE2847244C93C90023FAD8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				42EE2828244C1EDE0023FAD8 /* Base */,
+				42EE2848244C93C90023FAD8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		42EE282C244C1EE30023FAD8 /* LaunchScreen.storyboard */ = {
+		42EE284C244C93CC0023FAD8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				42EE282D244C1EE30023FAD8 /* Base */,
+				42EE284D244C93CC0023FAD8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		42EE2830244C1EE30023FAD8 /* Debug */ = {
+		42EE2850244C93CC0023FAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		42EE2831244C1EE30023FAD8 /* Release */ = {
+		42EE2851244C93CC0023FAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,35 +280,35 @@
 			};
 			name = Release;
 		};
-		42EE2833244C1EE30023FAD8 /* Debug */ = {
+		42EE2853244C93CC0023FAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WarCardGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UserInterface_Exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TeamSloth.WarCardGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TeamSloth.CardWarGame-Exercise";
+				PRODUCT_NAME = UserInterface_Exercise;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		42EE2834244C1EE30023FAD8 /* Release */ = {
+		42EE2854244C93CC0023FAD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WarCardGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UserInterface_Exercise/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TeamSloth.WarCardGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TeamSloth.CardWarGame-Exercise";
+				PRODUCT_NAME = UserInterface_Exercise;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42EE2819244C1EDD0023FAD8 /* Build configuration list for PBXProject "WarCardGame" */ = {
+		42EE2839244C93C90023FAD8 /* Build configuration list for PBXProject "UserInterface_Exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42EE2830244C1EE30023FAD8 /* Debug */,
-				42EE2831244C1EE30023FAD8 /* Release */,
+				42EE2850244C93CC0023FAD8 /* Debug */,
+				42EE2851244C93CC0023FAD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42EE2832244C1EE30023FAD8 /* Build configuration list for PBXNativeTarget "WarCardGame" */ = {
+		42EE2852244C93CC0023FAD8 /* Build configuration list for PBXNativeTarget "UserInterface_Exercise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42EE2833244C1EE30023FAD8 /* Debug */,
-				42EE2834244C1EE30023FAD8 /* Release */,
+				42EE2853244C93CC0023FAD8 /* Debug */,
+				42EE2854244C93CC0023FAD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 42EE2816244C1EDD0023FAD8 /* Project object */;
+	rootObject = 42EE2836244C93C90023FAD8 /* Project object */;
 }
