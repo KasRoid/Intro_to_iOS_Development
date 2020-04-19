@@ -1,5 +1,8 @@
 # Intro_to_iOS_Development
-
+### CardWarGame Design Practice ###
+Date: 2020.04.19
+![CardWarGame Deisign Practice](https://user-images.githubusercontent.com/41736472/79688198-a04fc680-8287-11ea-8021-3702decb0fbd.png)
+---
 ### AutoLayout & UIStackView Exercise ###
 Date: 2020.04.18
 ![AutoLayout Tutorial & UIStackView Exercise](https://user-images.githubusercontent.com/41736472/79633264-51c6fd00-819f-11ea-9559-43eed30323a4.png)
