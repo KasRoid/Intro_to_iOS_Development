@@ -1,8 +1,9 @@
 # Intro_to_iOS_Development
-
-### CardWarGame Design Practice ###
+---
+### WarCardGame Design Practice & User Interface Excersice ###
 Date: 2020.04.19
-![CardWarGame Deisign Practice](https://user-images.githubusercontent.com/41736472/79688198-a04fc680-8287-11ea-8021-3702decb0fbd.png)
+![WarCardGame Deisign Practice](https://user-images.githubusercontent.com/41736472/79688198-a04fc680-8287-11ea-8021-3702decb0fbd.png)
+![UserInterface Excersice(https://user-images.githubusercontent.com/41736472/79691994-86b97980-829d-11ea-8338-7171c1543a94.png)
 
 ---
 ### AutoLayout & UIStackView Exercise ###
