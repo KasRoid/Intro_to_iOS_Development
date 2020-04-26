@@ -23,7 +23,7 @@ class TableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int { // 테이블 안의 섹션 갯수를 설정한다. 보통 한개이며, 2개를 입력해보니 같은 내용이 리스트 아래에 복사되어 나타난다.
+    override func numberOfSections(in tableView: UITableView) -> Int { // 테이블 안의 섹션 갯수를 설정한다. 보통 한개이며, 2개를 입력해보면 같은 내용이 리스트 아래에 복사되어 나타난다.
         return 1
     }
 

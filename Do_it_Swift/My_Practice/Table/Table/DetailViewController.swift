@@ -21,6 +21,7 @@ class DetailViewController: UIViewController {
         
         // 입력받은 텍스트 변수를 DetailView 의 Label 에 할당한다.
         lblItem.text = receiveItem
+        lblItem.frame = CGRect(x: view.frame.minX - 100, y: view.frame.minY - 30, width: 300, height: 300)
     }
     
     // itme 변수에 입력된 내용을 receiveItem 에 할당받는다.
