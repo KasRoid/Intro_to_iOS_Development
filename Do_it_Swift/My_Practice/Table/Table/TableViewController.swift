@@ -16,6 +16,9 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Bar Button 으로 목록 삭제하는 기능 추가
+        self.navigationItem.leftBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
@@ -47,24 +50,40 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+
     // Override to support editing the table view.
+    // 목록 삭제기능 추가하기
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
+            items.remove(at: (indexPath as NSIndexPath).row)
+            itemsImageFile.remove(at: (indexPath as NSIndexPath).row)
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
-
     /*
+    override func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
+        return "삭제"
+    }
+*/
+
+
     // Override to support rearranging the table view.
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+        let itemToMove = items[(fromIndexPath as NSIndexPath).row] // 이동할 아이템 텍스트를 변수에 저장
+        let itemImageToMove = itemsImageFile[(fromIndexPath as NSIndexPath).row] // 이동할 아이템 이미지를 변수에 저장
+        items.remove(at: (fromIndexPath as NSIndexPath).row) // 이동할 텍스트를 기존위치에서 삭제
+        itemsImageFile.remove(at: (fromIndexPath as NSIndexPath).row) // 이동할 이미지를 기존 위치에서 삭제
+        items.insert(itemToMove, at: (to as NSIndexPath).row) // 변수에 담긴 텍스트를 새로운 위치에 삽입
+        itemsImageFile.insert(itemImageToMove, at: (to as NSIndexPath).row) // 변수에 담긴 이미지를 새로운 텍스트에 삽입
     }
-    */
+    
+    // 뷰가 전환될 때 호출되는 함수로 AddView 에서 항목을 추가하고 돌아왔을 때 TableView 를 다시 로드한다.
+    override func viewWillAppear(_ animated: Bool) {
+        tvListView.reloadData()
+    }
+
 
     /*
     // Override to support conditional rearranging of the table view.
@@ -74,14 +93,20 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "sgDetail" {
+            let cell = sender as! UITableViewCell
+            let indexPath = self.tvListView.indexPath(for: cell)
+            let detailView = segue.destination as! DetailViewController
+            detailView.receiveItem(items[((indexPath! as NSIndexPath).row)])
+        }
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }

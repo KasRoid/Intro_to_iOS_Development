@@ -9,12 +9,23 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+    // 입력받은 텍스트를 저장할 변수
+    var receiveItem = ""
+    
+    // DetailView 의 Label 을 선언한 변수
     @IBOutlet var lblItem: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        // 입력받은 텍스트 변수를 DetailView 의 Label 에 할당한다.
+        lblItem.text = receiveItem
+    }
+    
+    // itme 변수에 입력된 내용을 receiveItem 에 할당받는다.
+    func receiveItem(_ item: String) {
+        receiveItem = item
     }
     
 
